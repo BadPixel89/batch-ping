@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\repos\\panel-check\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDDFEBC-C493-46F1-B05D-2154A8539A98}|panel-check\\panel-check.csproj|c:\\repos\\panel-check\\panel-check\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEDDFEBC-C493-46F1-B05D-2154A8539A98}|panel-check\\panel-check.csproj|solutionrelative:panel-check\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDDFEBC-C493-46F1-B05D-2154A8539A98}|panel-check\\panel-check.csproj|c:\\repos\\panel-check\\panel-check\\csv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEDDFEBC-C493-46F1-B05D-2154A8539A98}|panel-check\\panel-check.csproj|solutionrelative:panel-check\\csv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CSV.cs",
+              "DocumentMoniker": "C:\\repos\\panel-check\\panel-check\\CSV.cs",
+              "RelativeDocumentMoniker": "panel-check\\CSV.cs",
+              "ToolTip": "C:\\repos\\panel-check\\panel-check\\CSV.cs",
+              "RelativeToolTip": "panel-check\\CSV.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T19:12:06.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\repos\\panel-check\\panel-check\\Program.cs",
+              "RelativeDocumentMoniker": "panel-check\\Program.cs",
+              "ToolTip": "C:\\repos\\panel-check\\panel-check\\Program.cs",
+              "RelativeToolTip": "panel-check\\Program.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwDYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T18:54:29.274Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+C:\repos\panel-check\panel-check\bin\Debug\panel-check.exe.config
+C:\repos\panel-check\panel-check\bin\Debug\panel-check.exe
+C:\repos\panel-check\panel-check\bin\Debug\panel-check.pdb
+C:\repos\panel-check\panel-check\obj\Debug\panel-check.csproj.AssemblyReference.cache
+C:\repos\panel-check\panel-check\obj\Debug\panel-check.csproj.CoreCompileInputs.cache
+C:\repos\panel-check\panel-check\obj\Debug\panel-check.exe
+C:\repos\panel-check\panel-check\obj\Debug\panel-check.pdb
