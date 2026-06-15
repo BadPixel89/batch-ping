@@ -10,55 +10,48 @@ namespace panel_check
     internal class CSV
     {
         /// <summary>
-        /// Read the specified CSV file
+        /// read the file into a table comprised of lists
         /// </summary>
-        /// <param name="filePath"></param><br></br>
-        /// <returns>A list<string> of the lines in the csv doc</returns>
-        public List<string> ParseLines(string filePath)
+        /// <param name="filePath"></param>
+        /// <returns>A 2D list of string</returns>
+        public List<List<string>> ParseTable(string filePath)
         {
+            List<List<string>> csvtable = new List<List<string>>();
+            List<string> currentLine = new List<string>();
             string line = "";
-            List<string> lines = new List<string>();
 
             try
             {
-
                 using (StreamReader reader = new StreamReader(filePath))
                 {
                     while ((line = reader.ReadLine()) != null)
                     {
-                        lines.Add(line);
+                        currentLine = line.Split(',').ToList();
+                        csvtable.Add(currentLine);
                     }
                 }
-
-                return lines;
+                return csvtable;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return null;
             }
-        }
 
-        /// <summary>
-        /// Write a csv file from a List<string> of CSV lines. If the lines are not comma separated they will still be written.
-        /// </summary>
-        /// <param name="csvLines"></param>
-        /// <param name="filePath"></param>
-        public void Write(List<string> csvLines, string filePath)
-        {
-            using (StreamWriter writer = new StreamWriter(filePath, false))
-            {
-                foreach (string line in csvLines)
-                {
-                    writer.WriteLine(line);
-                }
-            }
-            return;
+
         }
-        public void Write(string csvLines, string filePath)
+        /// <summary>
+        /// write the list table to the file path specified
+        /// </summary>
+        /// <param name="csvTable"></param>
+        /// <param name="filePath"></param>
+        public void Write(List<List<string>> csvTable, string filePath)
         {
             using (StreamWriter writer = new StreamWriter(filePath, false))
             {
-                writer.Write(csvLines);
+                foreach (List<string> line in csvTable)
+                {
+                    writer.WriteLine(String.Join(".",line));
+                }
             }
             return;
         }
